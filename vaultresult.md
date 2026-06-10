@@ -7,7 +7,7 @@
 | 3  | Unsigned Access      | JWT `alg: none` Bypass     | `FLAG{jwt_1ff94e06}`                |  
 | 4  | Import Statement     | XXE (XML External Entity)  | `FLAG{xxe_6308af43}`                | 
 | 5  | Statement Mailer     | OS Command Injection       | `FLAG{cmdi_17fd3354}`               |  
-| 6  | Email Hijack         | CSRF                       | `FLAG{csrf_1c0c47d4}`               |  
+| 6  | Email Hijack         | CSRF                       | `FLAG{csrf_xxxxxx`               |  
 | 7  | Welcome Card         | SSTI (Jinja2)              | `FLAG{ssti_1e29a80d}`               | 
 | 8  | Self Service         | Password Reset Logic Flaw  | `FLAG{reset_c40ce1a6}`              | 
 | 9  | Account Nickname     | DOM-Based XSS              | `FLAG{domxss_fa903fe3}`             | 
@@ -33,4 +33,4 @@
 - **App URL:** `http://localhost:3000`
 
 
-C6 (CSRF attack via bot) requires hosting an external HTML page with auto-submitting form, reachable from inside the Docker network.(hardest imo)
+
