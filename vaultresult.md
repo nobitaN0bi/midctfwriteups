@@ -32,5 +32,5 @@
 - **Admin Password:** `B4nkAdm1n2026` (restored after C8 exploit; was changed to `hacked123`)
 - **App URL:** `http://localhost:3000`
 
-## Summary
-**9/10 challenges solved.** C6 (CSRF attack via bot) requires hosting an external HTML page with auto-submitting form, reachable from inside the Docker network.
+
+C6 (CSRF attack via bot) requires hosting an external HTML page with auto-submitting form, reachable from inside the Docker network.(hardest imo)
